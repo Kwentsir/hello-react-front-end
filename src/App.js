@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
-import { Greeting } from './features/greeting/Greeting';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
+import Greeting from './features/greeting/Greeting';
 import './App.css';
 
 function App() {
